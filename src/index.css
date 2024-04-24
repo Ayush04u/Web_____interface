@@ -1,5 +1,3 @@
-/* WebControls.css */
-
 .web-controls-container {
   /* Add styling for the entire container */
 }
@@ -24,8 +22,15 @@
   text-align:center
   /* Styling for each section (PARAMETER, SET, ACT, etc.) */
 }
+.section-row {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between; 
+}
+
 
 .parameter {
+  height: 70vh;
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -35,8 +40,32 @@
   /* Styling for parameter labels and input fields */
 }
 
+.parameter-row {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.parameter-row label {
+  margin-right: 10px;
+}
+
+.parameter-row input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.parameter-row button {
+  background-color: yellow;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
 button{
-  width: 10vh;
+  width: 20vh;
 }
 
 .machine-mode {

@@ -6,7 +6,14 @@ const WebControls = () => {
     <div className="web-controls-container">
       <div className="logo">WEB CONTROL</div>
       <div className="section">
-        PARAMETER SET ACT DIA E2P Act Pressure DIRECTION
+        <div className="section-row">
+          <span>PARAMETER</span>
+          <span>SET</span>
+          <span>ACT</span>
+          <span>DIA</span>
+          <span>E2P Act Pressure</span>
+          <span>DIRECTION</span>
+        </div>
       </div>
       <div className="parameter">
         <div className="parameter-row">
@@ -15,7 +22,7 @@ const WebControls = () => {
           <input type="text" placeholder="####" />
           <input type="text" placeholder="####" />
           <input type="text" placeholder="####" />
-          <button>TOP</button>
+          <button style={{ backgroundColor: "yellow" }}>TOP</button>
         </div>
         <div className="parameter-row">
           <label>UW TEN.(N)</label>
