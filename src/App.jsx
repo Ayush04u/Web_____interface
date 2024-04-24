@@ -24,29 +24,37 @@ const WebControls = () => {
       <div className="parameter">
         <div className="parameter-row">
           <label>UW TEN.(N)</label>
-          <input type="text" placeholder="####" style={{ backgroundColor: "blue" }} />
+          <input type="text" placeholder="####" style={{ backgroundColor: "blue", }} />
+          <input type="text" placeholder="####" />
+          <input type="text" placeholder="####" />
+          <input type="text" placeholder="####" />
+          <button style={{ backgroundColor: "yellow" }}>TOP</button>
+        </div>
+        <div className="parameter-row" style={{marginLeft:"1128px"}}>
+          <label style={{ textAlign: "center" }}>MACHINE MODE</label>
+          <button style={{ backgroundColor: "rgb(87,87,139)", }}>AUTO</button>
+        </div>
+        <div className="parameter-row" style={{marginLeft:"1152px"}}>
+          <label>CYL. CIRCUM</label>
+          <button style={{ backgroundColor: "blue", color: "white",}}>####</button>
+        </div>
+        <div className="parameter-row">
+          <label>RW TEN.(N)</label>
+          <input type="text" placeholder="####" />
           <input type="text" placeholder="####" />
           <input type="text" placeholder="####" />
           <input type="text" placeholder="####" />
           <button style={{ backgroundColor: "yellow" }}>TOP</button>
         </div>
         <div className="parameter-row">
-          <label>UW TEN.(N)</label>
-          <input type="text" placeholder="####" />
-          <input type="text" placeholder="####" />
-          <input type="text" placeholder="####" />
-          <input type="text" placeholder="####" />
-          <button style={{ backgroundColor: "yellow" }}>TOP</button>
-        </div>
-        <div className="parameter-row">
-          <label>UW TEN.(N)</label>
+          <label>RW INIT (N)</label>
           <input type="text" placeholder="####" style={{ backgroundColor: "blue" }} />
           <span>ACT MTR</span>
           <input type="text" placeholder="####" />
           <button style={{ backgroundColor: "RED" }}>RESET</button>
         </div>
         <div className="parameter-row">
-          <label>UW TEN.(N)</label>
+          <label>RW TPR.(%)</label>
           <input type="text" placeholder="####" style={{ backgroundColor: "blue" }} />
           <span>TOTAL MTR</span>
           <input type="text" placeholder="####" />

@@ -3,13 +3,14 @@
 }
 
 .logo {
+  color: yellowgreen;
   font-size: xx-large;
   font-weight: 800;
   border: 2px solid black;
   height: 40px;
   display: block;
   text-align: center;
-  background: rgba(87, 234, 90, 0.652);
+  background: rgb(65,108,137);
 }
 
 .section {
@@ -38,7 +39,7 @@
   margin-top: 2px;
   border: 2PX SOLID black;
   border-radius: 15px;
-  background-color: grey;
+  background-color: rgb(100,102,115);
   /* Styling for parameter labels and input fields */
 }
 
@@ -91,6 +92,7 @@ button {
   width: 20vh;
 }
 
+
 .parameter-row span {
   margin-left: 80px;
   margin-right: 160px;
@@ -121,7 +123,7 @@ button {
   width: 14vw;
   margin-left: 5px;
   margin-top: 3px;
-  background-color: grey;
+  background-color: rgb(100,102,115);
 }
 
 
