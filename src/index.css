@@ -6,27 +6,28 @@
   font-size: xx-large;
   font-weight: 800;
   border: 2px solid black;
-  height: 50px;
+  height: 40px;
   display: block;
   text-align: center;
   background: rgba(87, 234, 90, 0.652);
 }
 
 .section {
-  border: 2PX SOLID black;
+  border: 4PX SOLID black;
   border-radius: 7px;
   background-color: black;
   color: white;
   margin-top: 2px;
   justify-content: space-around;
-  text-align:center
-  /* Styling for each section (PARAMETER, SET, ACT, etc.) */
+  text-align: center
+    /* Styling for each section (PARAMETER, SET, ACT, etc.) */
 }
+
 .section-row {
-  margin-right: 20px;
-  margin-left: 10px;
+  margin-right: 70px;
+  margin-left: 15px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 
@@ -34,9 +35,9 @@
   height: 70vh;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin-top: 2px;
   border: 2PX SOLID black;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: grey;
   /* Styling for parameter labels and input fields */
 }
@@ -48,34 +49,80 @@
 }
 
 .parameter-row label {
-  margin-right: 10px;
+  margin-right: 35px;
 }
 
 .parameter-row input[type="text"] {
-  width: 40vh;
-  margin-right: 10px;
+  border-radius: 7px;
+  height: 50px;
+  line-height: normal;
+  color: #282828;
+  display: block;
+  width: 38vh;
+  margin-right: 20px;
   padding: 5px;
-  border: 2px solid #131212;
+  padding-left: 12px;
+  box-sizing: border-box;
+  user-select: auto;
+  font-size: 16px;
+
+}
+
+.parameter-row input[type="text"]:focus {
+  border: 3px solid #5551ff;
 }
 
 .parameter-row button {
+  font-size: 16px;
+  height: 50px;
+  border-radius: 7px;
   background-color: yellow;
   padding: 5px 10px;
   border: none;
   cursor: pointer;
 }
 
+.parameter-row button:hover {
+  border: 3px solid #5551ff;
+}
 
-button{
+
+button {
   width: 20vh;
 }
-.parameter-row span{
+
+.parameter-row span {
   margin-left: 80px;
   margin-right: 160px;
 }
 
-.machine-mode {
-  /* Styling for the machine mode button */
+.Footer {
+  display: flex;
+  width: auto;
+  height: 15vh;
+  margin-top: 2px;
 }
+
+.box-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  font-weight: 400;
+  font-size: x-large;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 30px;
+  display: flex;
+  border: 2px solid black;
+  height: 14vh;
+  width: 14vw;
+  margin-left: 5px;
+  margin-top: 3px;
+  background-color: grey;
+}
+
 
 /* Add additional CSS rules for other elements */

@@ -1,10 +1,16 @@
 import React from 'react';
+import image from './assets/image.png';
+import image1 from './assets/image1.png';
+
+
+
 // import './WebControls.css'; // Import your CSS file
 
 const WebControls = () => {
   return (
     <div className="web-controls-container">
-      <div className="logo">WEB CONTROL</div>
+      <div className="logo">WEB CONTROL
+      </div>
       <div className="section">
         <div className="section-row">
           <span>PARAMETER</span>
@@ -48,10 +54,20 @@ const WebControls = () => {
         </div>
       </div>
       {/* Repeat similar sections for other parameters */}
-      <div className="machine-mode">
-        <button>AUTO</button>
+      <div className="Footer">
+        <div className="box-row">
+          <div className="box">
+            <img src={image} alt="" />
+          </div>
+          <div className="box">
+            <img src={image1} alt="" />
+          </div>
+          <div className="box">INDEX</div>
+          <div className="box">DRIVE INCH</div>
+          <div className="box">AUX.CONTROL</div>
+          <div className="box">MOTOR</div>
+        </div>
       </div>
-      {/* Add other sections/buttons as needed */}
     </div>
   );
 };
