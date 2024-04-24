@@ -30,20 +30,21 @@ const WebControls = () => {
           <input type="text" placeholder="####" />
           <input type="text" placeholder="####" />
           <input type="text" placeholder="####" />
+          <button style={{ backgroundColor: "yellow" }}>TOP</button>
         </div>
         <div className="parameter-row">
           <label>UW TEN.(N)</label>
           <input type="text" placeholder="####" />
+          <span>ACT MTR</span>
           <input type="text" placeholder="####" />
-          <input type="text" placeholder="####" />
-          <input type="text" placeholder="####" />
+          <button style={{ backgroundColor: "RED" }}>RESET</button>
         </div>
         <div className="parameter-row">
           <label>UW TEN.(N)</label>
           <input type="text" placeholder="####" />
+          <span>TOTAL MTR</span>
           <input type="text" placeholder="####" />
-          <input type="text" placeholder="####" />
-          <input type="text" placeholder="####" />
+          <button style={{ backgroundColor: "RED" }}>RESET</button>
         </div>
       </div>
       {/* Repeat similar sections for other parameters */}

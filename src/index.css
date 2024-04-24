@@ -23,6 +23,7 @@
   /* Styling for each section (PARAMETER, SET, ACT, etc.) */
 }
 .section-row {
+  margin-right: 20px;
   margin-left: 10px;
   display: flex;
   justify-content: space-between; 
@@ -51,9 +52,10 @@
 }
 
 .parameter-row input[type="text"] {
+  width: 40vh;
   margin-right: 10px;
   padding: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #131212;
 }
 
 .parameter-row button {
