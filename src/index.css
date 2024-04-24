@@ -69,6 +69,10 @@
 button{
   width: 20vh;
 }
+.parameter-row span{
+  margin-left: 80px;
+  margin-right: 160px;
+}
 
 .machine-mode {
   /* Styling for the machine mode button */
